@@ -7,20 +7,15 @@ html {
   text-align: center;
 }
 
-header {
-  background-color: #79756f;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.buttons {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
+header {
+  background-color: #79756f;
 }
+
+/* Makes links look like buttons, Centers Buttons, sets font / color */
 
 .buttons li {
   display: inline-block;
@@ -32,10 +27,14 @@ header {
   text-align: center;
 }
 
+/* Changes color of link on hover */
+
 .buttons li:hover {
   background-color: #f33;
 
 }
+
+/* Changes font color & text of links */
 
 .buttons a {
   color: #fff;

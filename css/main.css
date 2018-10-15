@@ -3,8 +3,12 @@ html {
   font-family: 'Bevan', cursive;
   color: #fff;
   line-height: 1.5;
-  background-color: #79756f;
+  background-color: #dbd6cf;
   text-align: center;
+}
+
+header {
+  background-color: #79756f;
 }
 
 *, *::before, *::after {
@@ -28,10 +32,12 @@ html {
   text-align: center;
 }
 
-.buttons:hover li {
+.buttons li:hover {
   background-color: #f33;
+
 }
 
 .buttons a {
   color: #fff;
+  text-decoration: none;
 }

@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Bevan', cursive;
+  font-family: Bevan, cursive;
   color: #fff;
   line-height: 1.5;
   background-color: #dbd6cf;
@@ -13,30 +13,35 @@ html {
 
 header {
   background-color: #79756f;
+  border-color: #595652;
 }
 
-/* Makes links look like buttons, Centers Buttons, sets font / color */
+/* Centers text, sets font type, sets box color */
 
 .buttons li {
   display: inline-block;
   margin: .3em;
-  padding: .6em .5em .75em;
-  background-color: #713837;
-  border-radius: 10px;
   font-family: sans-serif;
   text-align: center;
 }
 
 /* Changes color of link on hover */
 
-.buttons li:hover {
+.buttons a:hover {
   background-color: #f33;
-
 }
 
-/* Changes font color & text of links */
+/* Rounds edges of links by 10px, changes bg color / text color */
 
 .buttons a {
+  display: inline-block;
+  border-radius: 10px;
+  padding: .6em .5em .75em;
+  background-color: #713837;
   color: #fff;
   text-decoration: none;
+}
+
+.buttons {
+  list-style-type: none;
 }

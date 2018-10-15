@@ -1,7 +1,20 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: 'Bevan', cursive;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.buttons li {
+  display: inline-block;
+  margin: .3em;
+  max-width: 20em;
+  padding: .6em .5em .75em;
+  background-color: #713837;
+  border-radius: 10px;
+  text-align: left;
 }

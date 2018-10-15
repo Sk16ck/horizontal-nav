@@ -33,6 +33,7 @@ body {
 }
 
 /* removed list bullets, margin/padding around .buttons */
+
 .buttons {
   list-style-type: none;
   margin: 0;
